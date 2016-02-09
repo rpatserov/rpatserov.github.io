@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+.wrapper {
+  width: 517px;
+  height: 755px;
+  outline: 1px solid red;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid yellow;
+}
