@@ -1,9 +1,32 @@
-@import url(reset.css);
 .wrapper {
   margin: auto;
-  margin-top: 10px;
   width: 512px;
   height: 755px;
   outline: 1px solid #e2e2e2;
   border: 1px solid #d5d5d5;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.foto {
+  height: 128px;
+  display: block;
+  margin: 0 auto;;
+}
+hr {
+  width: 414px;
+}
+p {
+  font: 18px 'Times New Roman';
+  margin: 12px auto 12px 64px;
+}
+.list {
+  font: 18px 'Times New Roman';
+  margin-left: 48px;
+  margin-top: 30px;
+}
+.learn {
+  font: 18px 'Times New Roman';
+  margin: 24px auto 24px 64px;
 }
