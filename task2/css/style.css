@@ -28,17 +28,12 @@
 }
 .header ul {
   list-style-type: none;
-  position: relative;
-  left:50%;
-  float:left;
   font: 15px 'Times New Roman', sans-serif;
   height: 40px;
 }
 .header ul li {
   width: 150px;
   height: 40px;
-  position: relative;
-  left: -50%;
   float: left;
 }
 .header ul li a {
@@ -109,9 +104,6 @@ p {
 }
 .footer ul {
   list-style-type: none;
-  position: relative;
-  left: 50%;
-  float: left;
   font: 14px 'Times New Roman', sans-serif;
   height: 40px;
 }
@@ -119,7 +111,6 @@ p {
   width: 150px;
   height: 40px;
   position: relative;
-  left: -50%;
   float: left;
 }
 .footer ul li a {
@@ -134,6 +125,6 @@ p {
 }
 .pFooter {
   float: right;
-  margin-top: 6px;
+  margin-top: -35px;
   margin-right: 20px;
 }
