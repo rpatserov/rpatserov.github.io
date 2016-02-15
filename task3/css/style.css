@@ -1,0 +1,138 @@
+@import url(reset.css);
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: repeat-x;
+}
+.main {
+  height: 985px;
+  width: 1000px;
+  background-color: #ffffff;
+  margin: 37px auto 34px;
+  box-shadow: 0px 3px 3px 0px black;
+}
+.logo {
+  margin-left: 28px;
+  position: absolute;
+}
+.contacts {
+  margin-top: 11px;
+  margin-left: 843px;
+  position: absolute;
+}
+.countrMenu {
+  margin-right: 25px;
+}
+.countrMenu li {
+  float: right;
+  margin-top: 112px;
+}
+.countrMenu li a {
+    margin: 7px;
+}
+.shri {
+  margin-left: -6px;
+  margin-right: -8px;
+}
+.foto {
+  margin-top: 175px;
+  border-top: 1px solid #138aa7;
+  border-bottom: 1px solid #138aa7;
+  position: absolute;
+}
+.mainMenu {
+  margin-top: 414px;
+  height: 28px;
+  width: 1000px;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 3px 3px 0px black;
+  background-color: #323232;
+  position: absolute;
+  z-index: 5;
+}
+.mainMenu ul {
+  list-style-type: none;
+  height: 28px;
+}
+.mainMenu ul li {
+  width: 142px;
+  height: 28px;
+  float:left;
+}
+.mainMenu ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 6px 2px;
+  font: 14px Tahoma, sans-serif;
+  opacity: 1;
+  color: white;
+}
+.dropdownOne li:last-child,
+.dropdownTwo li:last-child,
+.dropdownThree li:last-child {
+  box-shadow: 0px 3px 3px 0px black;
+}
+.dropdownOne li:first-child,
+.dropdownTwo li:first-child,
+.dropdownThree li:first-child {
+  border-top: 1px solid black;
+}
+.mainMenu .dropdownOne li,
+.mainMenu .dropdownTwo li,
+.mainMenu .dropdownThree li {
+  background-color: #323232;
+}
+.mainMenu .dropdownOne,
+.mainMenu .dropdownTwo,
+.mainMenu .dropdownThree {
+  display: none;
+}
+.mainMenu li:hover .dropdownOne,
+.mainMenu li:hover .dropdownTwo,
+.mainMenu li:hover .dropdownThree {
+  display: block;
+}
+.textAll {
+  margin-top: 275px;
+  width: 1000px;
+  float: left;
+  z-index: 10;
+}
+.textMiddle,
+.textLeft,
+.textRight div {
+  position: absolute;
+}
+.textMiddle {
+  width: 600px;
+  height: 540px;
+  margin-left: 200px;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+.textLeft {
+  width: 200px;
+}
+.textRight {
+  width: 200px;
+  margin-left: 800px;
+}
+.textRight h2,
+.textLeft h2 {
+  font: bold 18px Tahoma, sans-serif;
+  text-align: center;
+}
+p {
+  line-height: 1.5;
+}
+p, h2 {
+  margin: 5px;
+  padding: 5px;
+}
+.copy {
+  font: 12px Tahoma, sans-serif;
+  color: white;
+  margin-top: 995px;
+  margin-left: 398px;
+  position: absolute;
+}
