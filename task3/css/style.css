@@ -112,10 +112,14 @@ body {
 }
 .textLeft {
   width: 200px;
+  height: 540px;
+  background-color: #edeef0;
 }
 .textRight {
   width: 200px;
+  height: 540px;
   margin-left: 800px;
+  background-color: #edeef0;
 }
 .textRight h2,
 .textLeft h2 {
