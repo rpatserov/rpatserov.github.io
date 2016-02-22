@@ -1,0 +1,184 @@
+@import url(reset.css);
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(../fonts/HelveticaNeue.ttf);
+}
+body {
+  background-color: #272829;
+  font-family: "Helvetica Neue"
+}
+.backgroundFoto {
+  width: 1215px;
+  height: 1028px;
+  display: block;
+  margin: 0 auto;;
+}
+.topLine {
+  width: 1215px;
+  height: 36px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.textLine img {
+  display: block;
+  position: absolute;
+  margin-left: 1004px;
+  margin-top: -38px;
+  opacity: 0;
+}
+.textLine:hover img {
+  opacity: 1;
+}
+.ola {
+  margin-left: 1015px;
+  margin-top: -30px;
+  display: block;
+  position: absolute;
+}
+.textLine a, p {
+  font: 14px "Helvetica Neue", Arial;
+  color: #feffff;
+}
+.minhas {
+  font: 14px "Helvetica Neue", Arial;
+  color: #feffff;
+  margin-left: 895px;
+  margin-top: -30px;
+}
+.flag {
+  display: block;
+  position: absolute;
+  margin-left: 863px;
+  margin-top: -17px;
+}
+.vline {
+  display: block;
+  position: absolute;
+  margin-left: 842px;
+  margin-top: -22px;
+}
+.menu ul {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  height: 36px;
+  margin-left: 446px;
+  margin-top: -24px;
+}
+.menu li {
+  float: left;
+  color: #ffffff;
+  line-height: 36px;
+}
+.menu li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 13px;
+    font: 14px "Helvetica Neue", Arial;
+    color: #feffff;
+}
+.menu li a:hover {
+  background-color: #4eabda;
+}
+.center {
+  height: 613px;
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  margin-left: 327px;
+  margin-top: 219px;
+}
+.transparent {
+  position: relative;
+}
+.middleLine {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: space;
+  position: absolute;
+}
+.cadastre {
+  font: 24px "Helvetica Neue", Arial;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-left: 212px;
+  position: absolute;
+}
+.facebook {
+  width: 276px;
+  height: 35px;
+  margin-top: 100px;
+  margin-left: 142px;
+  background-image: url("../img/facebutton.png");
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.ou {
+  margin-top: 172px;
+  margin-left: 142px;
+  position: absolute;
+}
+.first input {
+  margin-top: 207px;
+}
+.last input {
+  margin-top: 262px;
+}
+.email input {
+  margin-top: 317px;
+}
+.passW input {
+  margin-top: 372px;
+}
+.confirm input {
+  margin-top: 424px;
+}
+.first input,
+.last input,
+.email input,
+.passW input,
+.confirm input {
+  width: 261px;
+  height: 35px;
+  margin-left: 142px;
+  padding-left: 15px;
+  background-color: #0f0f0f;
+  border: none;
+  border-bottom: 1px solid #484948;
+  position: absolute;
+}
+.check input {
+  margin-top: 481px;
+  margin-left: 142px;
+  position: absolute;
+}
+.check p {
+  margin-top: 480px;
+  margin-left: 160px;
+  position: absolute;
+  font: 14px "Helvetica Neue", Arial;
+  color: #ffffff;
+}
+input[type="password"]:hover,
+input[type="text"]:hover,
+input[type="email"]:hover {
+  background-color: #1b5288;
+  border: none;
+  border-bottom: 1px solid #689bcc;
+  box-shadow: 0 0 15px #689bcc;
+}
+input[type="image"] {
+  margin-top: 516px;
+  margin-left: 196px;
+  width: 151px;
+  height: 37px;
+}
+.footer p {
+  margin-top: 16px;
+  margin-left: -24px;
+  text-align: center;
+  font: 11px "Helvetica Neue", Arial;
+  color: #ffffff;
+}
