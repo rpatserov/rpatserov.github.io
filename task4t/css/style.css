@@ -1,0 +1,12 @@
+body {
+  background-color: grey;
+}
+table {
+  top: 13%;
+  left: 33%;
+  border-collapse: collapse;
+  position: absolute;
+}
+td, th {
+  border: 9px solid black;
+}
