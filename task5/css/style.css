@@ -1,0 +1,384 @@
+@import url(reset.css);
+@font-face {
+  font-family: "Lucida Sans Unicode Regular";
+  src: url("../fonts/Lucida Sans Unicode Regular.ttf");
+}
+body {
+  background-color: white;
+}
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 909px;
+  height: 1310px;
+}
+.telimg {
+  margin-top: 22px;
+  margin-left: 6px;
+  position: absolute;
+}
+header p {
+  display: inline-block;
+  margin: 23px 0 0 33px;
+  font: 18px Arial, sans-serif;
+  letter-spacing: .02em;
+  color: #5e696d;
+}
+.logpass {
+  height: 26px;
+  width: 495px;
+  background: linear-gradient(to top, #0c3357, #1f6787);
+  box-shadow: 3px 3px 2px 0px rgba(50, 50, 50, 0.3);
+  border-radius: 3px;
+  margin-top: -27px;
+  margin-left: 314px;
+  position: absolute;
+}
+.autoriz {
+  margin: 6px 0 0 7px;
+}
+header nav {
+  width: 67px;
+  height: 18px;
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.3);
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  margin-top: -25px;
+  margin-left: 514px;
+  background: white;
+  padding-left: 5px;
+}
+header input {
+  width: 107px;
+  height: 10px;
+  margin: 2px 2px 0 2px;
+  padding-left: 3px;
+  font: 11px Arial, sans-serif;
+}
+header .imgs {
+  position: relative;
+}
+header .formdata {
+  margin: -24px 0px 0px 337px;
+  position: absolute;
+}
+header .inreg {
+  margin: -49px 0 20px 550px;
+  position: absolute;
+}
+header a {
+  font: 11px Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+header span {
+  font: 10px Arial, sans-serif;
+  color: white;
+}
+header .forgot {
+  letter-spacing: .05em;
+  font: 11px "Lucida Sans Unicode Regular", sans-serif;
+  color: #bfbfbf;
+  text-decoration: underline;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header .logoimg {
+  margin-top: 10px;
+}
+header .menuNav {
+  height: 30px;
+  width: 909px;
+  border: 1px solid #2c345a;
+  background: linear-gradient(to top, #010101, #4d5663);
+  box-shadow: 3px 3px 2px 0px rgba(50, 50, 50, 0.3);
+  border-radius: 3px;
+  margin-top: 3px;
+}
+.menuNav ul {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  height: 30px;
+  margin-left: 127px;
+}
+.menuNav li {
+  float: left;
+  color: #ffffff;
+  line-height: 30px;
+}
+.menuNav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 3px;
+  padding: 1px 17px;
+  font: 14px "Lucida Sans Unicode Regular", sans-serif;
+  color: #b1bcc0;
+}
+.menuNav li a:hover {
+  background: linear-gradient(to top, #0c3357, #1f6787);
+  border-radius: 10px;
+  color: white;
+}
+.menuNav img {
+  float: right;
+  margin: 6px 206px 0 0;
+}
+.menuNav p {
+  font: 11px Arial, sans-serif;
+  margin: 7px -204px 5px 0;
+  float: right;
+}
+.menuNav p span {
+  font: 12px Arial, sans-serif;
+  color: #0d5a8f;
+}
+#forms
+.leftForm,
+.middleForm,
+.rightForm {
+  margin-top: 12px;
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.3);
+  border-radius: 20px;
+  background: white;
+  float: left;
+}
+#forms .leftForm {
+  height: 134px;
+  width: 414px;
+  border: 1px solid #b3b3b4;
+  margin-left: 4px;
+}
+#forms .middleForm {
+  height: 134px;
+  width: 192px;
+  border: 1px solid #b3b3b4;
+  margin-left: 12px;
+}
+#forms .rightForm {
+  height: 134px;
+  width: 266px;
+  border: 1px solid #b3b3b4;
+  margin-left: 8px;
+}
+#forms:after {
+content: "";
+display: table;
+clear: both;
+}
+main {
+  margin-top: 16px;
+  width: 909px;
+  height: 640px;
+}
+.left {
+  width: 191px;
+  float: left;
+}
+.tires {
+  width: 526px;
+  height: 627px;
+  float: left;
+  background: linear-gradient(to top, #93a7b0, #e5e7e8);
+  border-radius: 2px;
+}
+.right {
+  width: 191px;
+  float: left;
+}
+.right input:first {
+  margin-top: 20px;
+}
+.catalogL,
+.catalogR {
+  width: 182px;
+  height: 26px;
+}
+.tiresL {
+  width: 150px;
+  height: 28px;
+  margin-top: 13px;
+}
+.disksL,
+.boltL {
+  width: 150px;
+  height: 28px;
+}
+.tiresR,
+.disksR {
+  width: 135px;
+  height: 28px;
+}
+.catalogL,
+.catalogR,
+.tiresL,
+.tiresR,
+.disksL,
+.boltL,
+.disksR {
+  border: 1px solid #79878d;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.3);
+}
+.catalogL img,
+.catalogR img,
+.tiresL img,
+.tiresR img,
+.disksL img,
+.boltL img,
+.disksR img {
+  margin: 2px 2px;
+  position: relative;
+}
+.catalogL span,
+.catalogR span,
+.tiresL span,
+.tiresR span,
+.disksL span,
+.boltL span,
+.disksR span {
+  margin-top: 5px;
+  letter-spacing: .04em;
+  font: 12px "Lucida Sans Unicode Regular", sans-serif;
+  color: #114165;
+  position: absolute;
+}
+.catalogR {
+  margin-left: 8px;
+}
+.tiresR {
+  margin: 13px 0 0 24px;
+}
+.disksR {
+  margin: 5px 0 0 24px;
+}
+.tiresLmenu ul {
+  display: block;
+}
+.tiresLmenu li {
+  margin-left: 52px;
+  line-height: 25px;
+  list-style-type: circle;
+}
+.tiresLmenu li a {
+  display: block;
+  margin-left: -8px;
+  text-decoration: none;
+  font: 13px "Lucida Sans Unicode Regular", sans-serif;
+  color: #465961;
+}
+.tiresLmenu li a:hover {
+  text-decoration: underline;
+  font: bold italic 14px Arial, sans-serif;
+  color: #0c3256;
+}
+.checkBrand {
+  margin-top: 5px;
+}
+.checkBrand p {
+  letter-spacing: .04em;
+  font: 13px "Lucida Sans Unicode Regular", sans-serif;
+  color: #114165;
+  margin: 0 0 4px 25px;
+}
+.selectProduct {
+  margin: 14px 0 0 34px;
+}
+.selectProduct button {
+  width: 80px;
+  height: 24px;
+  border: 1px solid #7a95a1;
+  background: linear-gradient(to top, #0c3357, #1f6787);
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.3);
+  border-radius: 20px;
+  cursor: pointer;
+  font: 11px Arial, sans-serif;
+  color: white;
+}
+.goodyear,
+.nokian,
+.hankook {
+  height: 176px;
+  width: 136px;
+  margin: 17px 0 10px 28px;
+  float: left;
+  cursor: pointer;
+}
+.goodyear h5,
+.nokian h5,
+.hankook h5 {
+  font: bold 14px "Lucida Sans Unicode Regular", sans-serif;
+  text-align: center;
+  color: #206988;
+  line-height: 14px;
+}
+.goodyear p,
+.nokian p,
+.hankook p {
+  font: bold 12px "Lucida Sans Unicode Regular", sans-serif;
+  text-align: center;
+  color: #1f2528;
+  line-height: 12px;
+}
+.goodyear h6,
+.nokian h6,
+.hankook h6 {
+  font: bold italic 16px Arial, sans-serif;
+  text-align: center;
+  color: #114165;
+}
+.goodImg,
+.nokianImg,
+.hankookImg {
+  height: 127px;
+  width: 136px;
+  border: 1px solid #b0b9bc;
+  border-radius: 5px;
+  background: white;
+}
+.goodImg img,
+.nokianImg img,
+.hankookImg img {
+  margin: 5px 0 5px 29px;
+}
+footer img {
+  display: block;
+  margin: 24px auto 25px;
+}
+.footerMenu {
+  width: 909px;
+  height: 100px;
+  background: #213a4d;
+  position: relative;
+}
+.footerMenu ul {
+  margin-top: 12px;
+  margin-left: 292px;
+}
+.footerMenu li {
+  float: left;
+}
+.footerMenu li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  padding: 1px 14px;
+  font: 12px Arial, sans-serif;
+  color: #bec6c9;
+}
+.footerMenu li span {
+  font: 12px Arial, sans-serif;
+  color: #bec6c9;
+}
+.footerMenu li a:hover {
+  color: #52abcb;
+}
+address {
+  margin: 39px 0 0 377px;
+  font: 10px Arial, sans-serif;
+  color: #7f4740;
+  position: absolute;
+}
