@@ -14,10 +14,37 @@ body {
 /*    BEGIN 320 PIXELS    */
 
 .wrapper {
+  outline: 1px solid green;
   width: 320px;
   height: 300px;
   margin: 0 auto;
 }
+nav img {
+  display: block;
+  margin: 52px auto;
+}
+.menu {
+  font: 24px "League gothic regular", Arial, sans-serif;
+  display: block;
+  margin: 146px auto;
+  overflow: hidden;
+}
+.menu__item {
+display: none;
+}
+.menu__item--one {
+  display: block;
+}
+.menu__link--one {
+  /*display: inline-block;*/
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu__link--one:hover {
+  border-bottom: 2px solid #edbfff;
+  line-height: .95;
+}
+
 
 
 }
@@ -38,20 +65,33 @@ body {
     margin: 52px auto;
   }
   .menu {
-    font: 24px "League gothic regular", Arial, sans-serif;
     width: 244px;
     height: 256px;
     border: 1px solid #131d23;
+    border-radius: 10px;
     display: block;
     overflow: hidden;
-    border-radius: 10px;
     margin: 0 auto;
+    background-color: rgba(54, 41, 62, .75 );
   }
   .menu__item {
-    line-height: 64px;
     text-align: center;
+    padding: 6px 0;
+    border-top: 1px solid #5f486a;
+    border-bottom: 1px solid #36283e;
   }
-
+  .menu__item:last-child {
+    border-bottom: none;
+  }
+  .menu__link {
+    font: 24px "League gothic regular", Arial, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .menu__item:hover {
+    background-color: #241c2a;
+    border-bottom: 2px solid #edbfff;
+  }
 
 
 }
