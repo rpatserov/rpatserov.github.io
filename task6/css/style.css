@@ -28,15 +28,28 @@ body {
 /*    BEGIN 480 PIXELS    */
 
   .wrapper {
-    background-color: yellow;
+    outline: 1px solid yellow;
     width: 480px;
     height: 300px;
     margin: 0 auto;
   }
   nav img {
-    /*margin-top: 52px;*/
     display: block;
     margin: 52px auto;
+  }
+  .menu {
+    font: 24px "League gothic regular", Arial, sans-serif;
+    width: 244px;
+    height: 256px;
+    border: 1px solid #131d23;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .menu__item {
+    line-height: 64px;
+    text-align: center;
   }
 
 
@@ -49,16 +62,35 @@ body {
 /*    BEGIN 768 PIXELS    */
 
   .wrapper {
-    background-color: red;
+    outline: 1px solid red;
     width: 768px;
     height: 300px;
     margin: 0 auto;
   }
   nav img {
-    margin-top: 52px;
+    margin: 52px 0 0 20px;
     position: absolute;
   }
-
+  .menu {
+    font: 24px "League gothic regular", Arial, sans-serif;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  .menu__item {
+  float: left;
+  margin: 145px 53px 0 0;
+  }
+  .menu__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .menu__link:hover {
+    border-bottom: 2px solid #edbfff;
+    line-height: .95;
+  }
 
 
 }
@@ -69,6 +101,7 @@ body {
 /*    BEGIN 960 PIXELS    */
 
   .wrapper {
+    outline: 1px solid black;
     width: 960px;
     height: 300px;
     margin: 0 auto;
@@ -77,7 +110,24 @@ body {
     margin-top: 52px;
     position: absolute;
   }
-
-
+  .menu {
+    font: 24px "League gothic regular", Arial, sans-serif;
+    display: block;
+    float: right;
+    overflow: hidden;
+  }
+  .menu__item {
+  float: left;
+  margin: 80px 0 0 53px;
+  }
+  .menu__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .menu__link:hover {
+    border-bottom: 2px solid #edbfff;
+    line-height: .95;
+  }
 }
 /*    END 960 PIXELS    */

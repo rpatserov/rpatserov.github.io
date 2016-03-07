@@ -76,8 +76,8 @@ body {
   text-decoration: none;
   text-align: center;
   padding: 10px 13px;
-    font: 14px "Helvetica Neue", Arial;
-    color: #feffff;
+  font: 14px "Helvetica Neue", Arial;
+  color: #feffff;
 }
 .menu li a:hover {
   background-color: #4eabda;
