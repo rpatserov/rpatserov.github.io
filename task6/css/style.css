@@ -8,7 +8,10 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
+
+/*    BEGIN 320 PIXELS    */
 
 .wrapper {
   width: 320px;
@@ -18,8 +21,11 @@ body {
 
 
 }
+/*    END 320 PIXELS    */
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+
+/*    BEGIN 480 PIXELS    */
 
   .wrapper {
     background-color: yellow;
@@ -27,11 +33,20 @@ body {
     height: 300px;
     margin: 0 auto;
   }
+  nav img {
+    /*margin-top: 52px;*/
+    display: block;
+    margin: 52px auto;
+  }
+
 
 
 }
+/*    END 480 PIXELS    */
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
+
+/*    BEGIN 768 PIXELS    */
 
   .wrapper {
     background-color: red;
@@ -39,20 +54,30 @@ body {
     height: 300px;
     margin: 0 auto;
   }
+  nav img {
+    margin-top: 52px;
+    position: absolute;
+  }
+
 
 
 }
+/*    END 768 PIXELS    */
 
 @media screen and (min-width: 960px) {
+
+/*    BEGIN 960 PIXELS    */
+
   .wrapper {
     width: 960px;
     height: 300px;
     margin: 0 auto;
   }
   nav img {
-    margin-top: 70px;
+    margin-top: 52px;
     position: absolute;
   }
 
 
 }
+/*    END 960 PIXELS    */
