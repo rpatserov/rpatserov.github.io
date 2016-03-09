@@ -181,7 +181,6 @@ display: none;
   background-color: rgba(0, 0, 0, .5);
 }
 header {
-  outline: 1px solid black;
   width: 960px;
   height: 400px;
   margin: 0 auto;
@@ -221,6 +220,12 @@ header {
   position: absolute;
   margin-left: 770px;
   margin-top: 183px;
+}
+.navi__button {
+  display: inline-block;
+  position: absolute;
+  margin-top: 493px;
+  margin-left: 219px;
 }
 
 
