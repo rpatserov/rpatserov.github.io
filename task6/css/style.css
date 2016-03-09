@@ -213,11 +213,13 @@ header {
   display: inline-block;
   position: absolute;
   margin-left: -775px;
+  margin-top: 183px;
 }
 .right__arrow {
   display: inline-block;
   position: absolute;
   margin-left: 775px;
+  margin-top: 183px;
 }
 
 
