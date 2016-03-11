@@ -168,6 +168,9 @@ display: none;
     font: 16px "Open Sans Light", Arial, sans-serif;
     color: white;
   }
+  .ifone__m {
+    display: none;
+  }
   .ifone__xl {
     float: right;
     margin-top: -20px;
@@ -182,7 +185,7 @@ display: none;
   .right__arrow {
     display: inline-block;
     position: absolute;
-    margin-left: 420px;
+    margin-left: 425px;
     margin-top: 183px;
   }
   .navi__button {
@@ -259,6 +262,9 @@ header {
 .legend p {
   font: 18px "Open Sans Light", Arial, sans-serif;
   color: white;
+}
+.ifone__m {
+  display: none;
 }
 .ifone__xl {
   float: right;
