@@ -17,10 +17,10 @@ body {
 
 /*    BEGIN 320 PIXELS    */
 
-.wrapper__mountain {
+.wrapper__s {
   outline: 1px solid green;
   width: 320px;
-  height: 300px;
+  /*height: 300px;*/
   margin: 0 auto;
 }
 nav img {
