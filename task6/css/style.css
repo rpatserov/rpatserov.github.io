@@ -152,7 +152,7 @@ display: none;
     width: 275px;
     height: 200px;
     float: left;
-    margin-left: 25px;
+    margin-left: 45px;
     margin-top: 100px;
     overflow: hidden;
   }
@@ -171,7 +171,7 @@ display: none;
   .ifone__xl {
     float: right;
     margin-top: -20px;
-    margin-right: 45px;
+    margin-right: 52px;
   }
   .left__arrow {
     display: inline-block;
