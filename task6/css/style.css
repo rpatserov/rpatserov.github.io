@@ -58,7 +58,7 @@ display: none;
 
 /*    BEGIN 480 PIXELS    */
 
-  .wrapper {
+  .wrapper__m {
     outline: 1px solid yellow;
     width: 480px;
     height: 300px;
@@ -68,7 +68,6 @@ display: none;
   nav img {
     display: block;
     margin: 52px 0 0 165px;
-    /*position: relative;*/
     position: absolute;
   }
   .menu {
@@ -177,13 +176,13 @@ display: none;
   .left__arrow {
     display: inline-block;
     position: absolute;
-    margin-left: -325px;
+    margin-left: -320px;
     margin-top: 183px;
   }
   .right__arrow {
     display: inline-block;
     position: absolute;
-    margin-left: 470px;
+    margin-left: 465px;
     margin-top: 183px;
   }
   .navi__button {
