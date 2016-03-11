@@ -90,13 +90,13 @@ header {
 .left__arrow {
   display: inline-block;
   position: absolute;
-  margin-left: -245px;
+  margin-left: -260px;
   margin-top: 317px;
 }
 .right__arrow {
   display: inline-block;
   position: absolute;
-  margin-left: 29px;
+  margin-left: 26px;
   margin-top: 317px;
 }
 .navi__button {
