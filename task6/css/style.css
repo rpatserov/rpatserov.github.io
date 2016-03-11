@@ -12,8 +12,8 @@ body {
   background: url("../img/bg.jpg") top center no-repeat;
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 479px) {*/
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
+/*@media screen and (min-width: 960px) {*/
 
 /*    BEGIN 320 PIXELS    */
 
@@ -323,8 +323,8 @@ header {
 }
 /*    END 768 PIXELS    */
 
-/*@media screen and (min-width: 960px) {*/
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 960px) {
+/*@media screen and (min-width: 320px) and (max-width: 479px) {*/
 
 /*    BEGIN 960 PIXELS    */
 
