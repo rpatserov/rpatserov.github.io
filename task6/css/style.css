@@ -481,7 +481,6 @@ main {
   width: 960px;
   height: 485px;
   margin: 0 auto;
-  outline: 1px solid green;
 }
 .wrapper__aside {
   width: 100%;
@@ -492,7 +491,12 @@ aside {
   width: 960px;
   height: 121px;
   margin: 0 auto;
-  outline: 1px solid yellow;
+  position: relative;
+}
+aside img {
+  position: absolute;
+  display: block;
+  margin: 25px 0 0 93px;
 }
 .block__one,
 .block__two {
@@ -500,7 +504,6 @@ aside {
   height: 310px;
   float: left;
   margin-top: 100px;
-  outline: 1px solid red;
 }
 .block__one {
   background: url("../img/back_triangle.png") 22px 0 no-repeat;
@@ -533,7 +536,6 @@ aside {
 .block__two--three {
   width: 440px;
   height: 55px;
-  outline: 1px solid grey;
   margin-top: 14px;
 }
 .block__two h2 {
@@ -557,7 +559,87 @@ aside {
   color: #454545;
   margin-left: 15px;
 }
+.naviwhite {
+  margin-left: 195px;
+}
+.wrapper__section {
+  width: 100%;
+  height: 395px;
+  background: #ececec;
+}
+section {
+  width: 960px;
+  height: 395px;
+  margin: 0 auto;
+}
+.sec__one,
+.sec__two,
+.sec__three {
+  width: 300px;
+  height: 215px;
+  float: left;
+  margin-top: 90px;
+}
+.sec__two,
+.sec__three {
+  margin-left: 30px;
+}
 
-
+.sec__one h2,
+.sec__two h2,
+.sec__three h2 {
+  font: 30px "League gothic regular", Arial, sans-serif;
+  color: #454545;
+}
+.sec__one p,
+.sec__two p,
+.sec__three p {
+  display: inline-block;
+  margin-top: 8px;
+  font: 16px "Open Sans Light", Arial, sans-serif;
+  color: #454545;
+}
+section img {
+  display: block;
+}
+section span {
+  display: inline-block;
+  margin-top: 15px;
+  font: italic 14px "Georgia Italic", Arial, sans-serif;
+  color: #c5c5c5;
+}
+.wrapper__footer {
+  width: 100%;
+  height: 115px;
+  background: url("../img/footerbg.jpg") no-repeat;
+}
+footer {
+  width: 960px;
+  height: 115px;
+  margin: 0 auto;
+}
+.footer__menu {
+  font: 20px "League gothic regular", Arial, sans-serif;
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+.fmenu__item {
+  float: left;
+  margin: 47px 43px 0 0 ;
+}
+.fmenu__link {
+  display: inline-block;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  text-decoration: none;
+  color: #ffffff;
+}
+footer p {
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+  font: 12px "Times New Roman", Arial, sans-serif;
+  color: white;
+}
 }
 /*    END 960 PIXELS    */
