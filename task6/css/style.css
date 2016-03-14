@@ -403,10 +403,13 @@ header {
     margin: 0 auto;
     position: relative;
   }
-  aside img {
+  aside .logos__xl {
+    display: none;
+  }
+  aside .logos__m {
     position: absolute;
     display: block;
-    margin: 25px 0 0 93px;
+    margin: 25px 0 0 50px;
   }
   .block__one {
     width: 360px;
@@ -436,23 +439,24 @@ header {
   .block__one div {
     display: inline-block;
     float: left;
-    width: 255px;
-    height: 205px;
-    margin: 28px 0 0 12px;
     overflow: hidden;
+    width: 255px;
+    height: 210px;
+    margin: 28px 0 0 12px;
   }
   .block__two {
     width: 335px;
     height: 270px;
     float: left;
-    margin-top: 125px;
+    margin-top: 120px;
   }
   .block__two--one,
   .block__two--two,
   .block__two--three {
     width: 335px;
-    height: 55px;
-    margin-top: 14px;
+    height: 50px;
+    margin-top: 15px;
+    overflow: hidden;
   }
   .block__two h2 {
     font: 30px "League gothic regular", Arial, sans-serif;
@@ -467,17 +471,29 @@ header {
     font: 16px "Open Sans ExtraBold", Arial, sans-serif;
     color: #454545;
     margin-left: 15px;
+    margin-top: 2px;
   }
   .block__two span {
-    display: inline-block;
     font: 16px "Open Sans Light", Arial, sans-serif;
     color: #454545;
     margin-left: 15px;
+    overflow: hidden;
+    margin-top: 2px;
   }
   .naviwhite {
-    margin-left: 195px;
+    margin-left: 120px;
   }
-
+  main h4 {
+    font: 18px "League gothic regular", Arial, sans-serif;
+    color: #454545;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    margin: -10px 90px 0 0;
+  }
+  main h3 {
+    display: none;
+  }
 
 
 
@@ -737,6 +753,17 @@ aside img {
 }
 .naviwhite {
   margin-left: 195px;
+}
+main h3 {
+  font: 18px "League gothic regular", Arial, sans-serif;
+  color: #454545;
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  margin: -10px 40px 0 0;
+}
+main h4 {
+  display: none;
 }
 .wrapper__section {
   width: 100%;
