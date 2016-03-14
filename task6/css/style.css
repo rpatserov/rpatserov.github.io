@@ -409,13 +409,13 @@ header {
   aside .logos__m {
     position: absolute;
     display: block;
-    margin: 25px 0 0 50px;
+    margin: 25px 0 0 20px;
   }
   .block__one {
     width: 360px;
     height: 285px;
     float: left;
-    margin-top: 95px;
+    margin: 95px 0 0 15px;
   }
   .block__one {
     background: url("../img/back_trian.png") no-repeat;
