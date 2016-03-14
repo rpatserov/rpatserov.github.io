@@ -448,7 +448,7 @@ header {
     width: 335px;
     height: 270px;
     float: left;
-    margin-top: 120px;
+    margin: 120px 0 0 30px;
   }
   .block__two--one,
   .block__two--two,
