@@ -381,6 +381,107 @@ header {
   }
 
 
+  .wrapper__main {
+    width: 100%;
+    height: 485px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  main {
+    width: 768px;
+    height: 485px;
+    margin: 0 auto;
+  }
+  .wrapper__aside {
+    width: 100%;
+    height: 121px;
+    border-top: 1px solid #fefefe;
+  }
+  aside {
+    width: 768px;
+    height: 121px;
+    margin: 0 auto;
+    position: relative;
+  }
+  aside img {
+    position: absolute;
+    display: block;
+    margin: 25px 0 0 93px;
+  }
+  .block__one {
+    width: 360px;
+    height: 285px;
+    float: left;
+    margin-top: 95px;
+  }
+  .block__one {
+    background: url("../img/back_trian.png") no-repeat;
+  }
+  .block__one img {
+    display: inline-block;
+    float: left;
+    margin-top: 18px;
+  }
+  .block__one h2 {
+    font: 24px "League gothic regular", Arial, sans-serif;
+    color: #454545;
+  }
+  .block__one span {
+    color: #edbfff;
+  }
+  .block__one p {
+    font: 16px "Open Sans Light", Arial, sans-serif;
+    color: #454545;
+  }
+  .block__one div {
+    display: inline-block;
+    float: left;
+    width: 255px;
+    height: 205px;
+    margin: 28px 0 0 12px;
+    overflow: hidden;
+  }
+  .block__two {
+    width: 335px;
+    height: 270px;
+    float: left;
+    margin-top: 125px;
+  }
+  .block__two--one,
+  .block__two--two,
+  .block__two--three {
+    width: 335px;
+    height: 55px;
+    margin-top: 14px;
+  }
+  .block__two h2 {
+    font: 30px "League gothic regular", Arial, sans-serif;
+    color: #454545;
+  }
+  .block__two img {
+    display: inline-block;
+    float: left;
+  }
+  .block__two p {
+    display: inline-block;
+    font: 16px "Open Sans ExtraBold", Arial, sans-serif;
+    color: #454545;
+    margin-left: 15px;
+  }
+  .block__two span {
+    display: inline-block;
+    font: 16px "Open Sans Light", Arial, sans-serif;
+    color: #454545;
+    margin-left: 15px;
+  }
+  .naviwhite {
+    margin-left: 195px;
+  }
+
+
+
+
+
 
 
 
@@ -579,6 +680,9 @@ aside img {
 }
 .block__one {
   background: url("../img/back_triangle.png") 22px 0 no-repeat;
+}
+.block__one br {
+  display: none;
 }
 .block__one img {
   display: inline-block;
