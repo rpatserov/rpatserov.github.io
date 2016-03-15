@@ -456,14 +456,12 @@ header {
     width: 480px;
     height: 201px;
     margin: 0 auto;
-    outline: 1px solid grey;
   }
   .footer__menu {
     font: 20px "League gothic regular", Arial, sans-serif;
     display: block;
     float: left;
     overflow: hidden;
-    /*margin-left: 20px;*/
   }
   .fmenu__item {
     float: left;
@@ -485,21 +483,6 @@ header {
     font: 12px "Open Sans ExtraBold", Arial, sans-serif;
     text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 /*    END 480 PIXELS    */
 
