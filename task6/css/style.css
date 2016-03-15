@@ -313,7 +313,6 @@ header {
     height: 280px;
     float: left;
     margin: 70px 0 0 40px;
-    outline: 1px solid grey;
   }
   .block__one {
     background: url("../img/back_trian4.png") no-repeat;
