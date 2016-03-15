@@ -602,7 +602,8 @@ header {
     margin: 0 auto;
     position: relative;
   }
-  aside .logos__xl {
+  .logos__xl,
+  .logos__four {
     display: none;
   }
   aside .logos__m {
@@ -964,7 +965,8 @@ aside .logos__xl {
   display: block;
   margin: 25px 0 0 93px;
 }
-aside .logos__m {
+.logos__m,
+.logos__four {
   display: none;
 }
 .block__one,
