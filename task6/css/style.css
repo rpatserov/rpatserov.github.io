@@ -16,8 +16,7 @@ body {
   background: url("../img/bg.jpg") top center no-repeat;
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 479px) {*/
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
 
 /*    BEGIN 320 PIXELS    */
 
@@ -194,12 +193,13 @@ aside {
   position: relative;
 }
 aside .logos__xl,
-aside .logos__m {
+aside .logos__m,
+aside .logos__four {
   display: none;
 }
 
-aside .logos__four {
-  margin: 35px 0 0 65px;
+aside .logos__s {
+  margin: 50px 0 0 40px;
 }
 .block__one {
   width: 280px;
@@ -289,34 +289,30 @@ main h4 {
 main h3 {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.wrapper__aside,
 .wrapper__section,
-.wrapper__footer {
+footer ul {
   display: none;
 }
-
+.wrapper__footer {
+  width: 100%;
+  height: 201px;
+  background: url("../img/footerbg_m.jpg")  top center no-repeat;
+}
+footer {
+  width: 320px;
+  height: 201px;
+  margin: 0 auto;
+}
+footer p {
+  display: inline-block;
+  margin: 40px 0 0 90px;
+  font: 12px "Times New Roman", Arial, sans-serif;
+  color: white;
+}
+footer span {
+  font: 12px "Open Sans ExtraBold", Arial, sans-serif;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
 }
 /*    END 320 PIXELS    */
 
@@ -1063,8 +1059,7 @@ main h3 {
 }
 /*    END 768 PIXELS    */
 
-/*@media screen and (min-width: 960px) {*/
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 960px) {
 
 /*    BEGIN 960 PIXELS    */
 
