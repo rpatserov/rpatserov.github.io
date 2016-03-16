@@ -16,13 +16,14 @@ body {
   background: url("../img/bg.jpg") top center no-repeat;
 }
 
-@media screen and (min-width: 320px) and (max-width: 479px) {
-/*@media screen and (min-width: 960px) /
+/*@media screen and (min-width: 320px) and (max-width: 479px) {*/
+@media screen and (min-width: 960px) {
 
 /*    BEGIN 320 PIXELS    */
 
 .wrapper__s {
   width: 320px;
+  height: 515px;
   margin: 0 auto;
 }
 nav img {
@@ -53,9 +54,11 @@ display: none;
 
 .wrapper__slider {
   width: 100%;
+  height: 50px;
 }
 header {
   width: 320px;
+  height: 100px;
   margin: 0 auto;
 }
 .legend {
@@ -64,7 +67,7 @@ header {
   height: 60px;
   float: left;
   margin-left: 65px;
-  margin-top: 300px;
+  margin-top: -223px;
   overflow: hidden;
 }
 .legend h1 {
@@ -86,25 +89,233 @@ header {
 .left__arrow {
   display: inline-block;
   position: absolute;
-  margin-left: -270px;
-  margin-top: 317px;
+  margin-left: 3px;
+  margin-top: -205px;
 }
 .right__arrow {
   display: inline-block;
   position: absolute;
-  margin-left: 27px;
-  margin-top: 317px;
+  margin-left: 298px;
+  margin-top: -205px;
 }
 .navi__button {
   display: inline-block;
   position: absolute;
-  margin-top: 430px;
-  margin-left: -155px;
+  margin-top: -85px;
+  margin-left: 114px;
+}
+.wrapper__pink {
+  width: 100%;
+  height: 598px;
+  margin-top: -50px;
+  border: 1px solid #33253a;
+  background: url("../img/pink_480.png") repeat-x;
+}
+article {
+  width: 320px;
+  height: 530px;
+  margin: 0 auto;
+}
+.about__one,
+.about__two,
+.about__three {
+  height: 135px;
+  margin: 0 5px 0 5px;
+}
+.about__one {
+  margin-top: 68px;
+}
+.about__two,
+.about__three {
+  margin-top: 40px;
+}
+.about__one .sprite {
+  display: inline-block;
+  margin-top: 5px;
+  width: 30px;
+  height: 28px;
+  background: url("../img/sprite.png") 2px 0 no-repeat;
+}
+.about__two .sprite {
+  display: inline-block;
+  margin-top: 5px;
+  width: 30px;
+  height: 28px;
+  background: url("../img/sprite.png") -28px 0 no-repeat;
+}
+.about__three .sprite {
+  display: inline-block;
+  margin-top: 5px;
+  width: 30px;
+  height: 28px;
+  background: url("../img/sprite.png") -58px 0 no-repeat;
+}
+.about__text {
+  margin-left: 55px;
+  margin-top: -33px;
+}
+.about__text h2 {
+  font: 24px "League gothic regular", Arial, sans-serif;
+  color: white;
+}
+.about__text p {
+  font: 16px "Open Sans Light", Arial, sans-serif;
+  color: white;
+}
+.about__text span {
+  font: 18px "League gothic regular", Arial, sans-serif;
+  color: white;
+  float: right;
+  margin: 10px 5px 0 0;
+}
+.about__text a:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, .7);
+}
+.wrapper__main {
+  width: 100%;
+  height: 785px;
+  background: #f9f9f9;
+  border-bottom: 1px solid #e6e6e6;
+}
+main {
+  width: 320px;
+  height: 785px;
+  margin: 0 auto;
+}
+.wrapper__aside {
+  width: 100%;
+  height: 420px;
+  border-top: 1px solid #fefefe;
+}
+aside {
+  width: 320px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+}
+aside .logos__xl,
+aside .logos__m {
+  display: none;
+}
+
+aside .logos__four {
+  margin: 35px 0 0 65px;
+}
+.block__one {
+  width: 280px;
+  height: 275px;
+  float: left;
+  margin: 70px 0 0 40px;
+}
+.block__one {
+  background: url("../img/back_trian_s.png") no-repeat;
+  float: right;
+}
+.block__one img {
+  display: inline-block;
+  float: left;
+  margin: 18px 0 0 -25px;
+}
+.block__one h2 {
+  font: 24px "League gothic regular", Arial, sans-serif;
+  color: #454545;
+  margin: 30px 0 10px 15px;
+}
+.block__one span {
+  color: #edbfff;
+}
+.block__one p {
+  font: 16px "Open Sans Light", Arial, sans-serif;
+  color: #454545;
+  margin-left: 15px;
+}
+.block__one div {
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  width: 180px;
+  height: 250px;
+}
+.block__two {
+  width: 280px;
+  height: 235px;
+  float: left;
+  margin: 90px 0 0 20px;
+  overflow: hidden;
+}
+.block__two--one,
+.block__two--two,
+.block__two--three {
+  width: 335px;
+  height: 50px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.block__two h2 {
+  font: 30px "League gothic regular", Arial, sans-serif;
+  color: #454545;
+}
+.block__two img {
+  display: inline-block;
+  float: left;
+}
+.block__two p {
+  display: inline-block;
+  font: 16px "Open Sans ExtraBold", Arial, sans-serif;
+  color: #454545;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+.block__two span {
+  font: 16px "Open Sans Light", Arial, sans-serif;
+  color: #454545;
+  margin-left: 15px;
+  overflow: hidden;
+  margin-top: 2px;
+}
+.naviwhite {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 132px;
+}
+main h4 {
+  font: 18px "League gothic regular", Arial, sans-serif;
+  color: #454545;
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  margin: 10px 20px 0 0;
+}
+main h3 {
+  display: none;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper__aside,
+.wrapper__section,
+.wrapper__footer {
+  display: none;
+}
 
 }
 /*    END 320 PIXELS    */
@@ -852,8 +1063,8 @@ header {
 }
 /*    END 768 PIXELS    */
 
-@media screen and (min-width: 960px) {
-/*@media screen and (min-width: 320px) and (max-width: 479px) /
+/*@media screen and (min-width: 960px) {*/
+@media screen and (min-width: 320px) and (max-width: 479px) {
 
 /*    BEGIN 960 PIXELS    */
 
