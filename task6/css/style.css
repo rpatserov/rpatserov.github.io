@@ -508,7 +508,8 @@ footer span {
     position: relative;
   }
   aside .logos__xl,
-  aside .logos__m {
+  aside .logos__m,
+  aside .logos__s {
     display: none;
   }
 
@@ -875,7 +876,8 @@ footer span {
     position: relative;
   }
   .logos__xl,
-  .logos__four {
+  .logos__four,
+  .logos__s, {
     display: none;
   }
   aside .logos__m {
@@ -1238,7 +1240,8 @@ aside .logos__xl {
   margin: 25px 0 0 93px;
 }
 .logos__m,
-.logos__four {
+.logos__four,
+.logos__s {
   display: none;
 }
 .block__one,
